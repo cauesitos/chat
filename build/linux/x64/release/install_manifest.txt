@@ -1,0 +1,11 @@
+/home/caue/Documentos/chat/chat/build/linux/x64/release/bundle/chat
+/home/caue/Documentos/chat/chat/build/linux/x64/release/bundle/data/icudtl.dat
+/home/caue/Documentos/chat/chat/build/linux/x64/release/bundle/lib/libflutter_linux_gtk.so
+/home/caue/Documentos/chat/chat/build/linux/x64/release/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/caue/Documentos/chat/chat/build/linux/x64/release/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/caue/Documentos/chat/chat/build/linux/x64/release/bundle/data/flutter_assets/AssetManifest.json
+/home/caue/Documentos/chat/chat/build/linux/x64/release/bundle/data/flutter_assets/FontManifest.json
+/home/caue/Documentos/chat/chat/build/linux/x64/release/bundle/data/flutter_assets/NOTICES
+/home/caue/Documentos/chat/chat/build/linux/x64/release/bundle/data/flutter_assets/NOTICES.Z
+/home/caue/Documentos/chat/chat/build/linux/x64/release/bundle/data/flutter_assets/version.json
+/home/caue/Documentos/chat/chat/build/linux/x64/release/bundle/lib/libapp.so
