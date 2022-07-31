@@ -1,4 +1,4 @@
-#Fri Jul 29 14:24:03 BRT 2022
+#Sun Jul 31 11:26:35 BRT 2022
 base.0=/home/caue/Documentos/chat/chat/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

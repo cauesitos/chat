@@ -13,11 +13,17 @@ void connect() {
     "transports": ["websocket"],
     "autoConnect": false,
   });
-  
+
   socket.connect();
   socket.onConnect((data) => print('conectado'));
 
   socket.on('server_menssage', ((data) {
+    print(data);
     mensagens.add(serverText(text: data['texto'], name: data['nome']));
+  }));
+  socket.on('desconexão', ((datas) {
+    print('des $datas');
+    var nomes = datas['nome'];
+    mensagens.add(serverText(text: 'o usuario $nomes se desconectou', name: 'mensagem do servidor'));
   }));
 }
