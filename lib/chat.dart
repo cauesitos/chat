@@ -28,6 +28,7 @@ class _AppState extends State<Chat> {
     Map mensagem = {
       'nome': nome.text,
       'texto': texto.text,
+      'id':meuId
     };
     setState(() {
       mensagens.add(userText(text: mensagem['texto'], name: mensagem['nome']));
