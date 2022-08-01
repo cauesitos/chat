@@ -1,3 +1,4 @@
+import 'package:chat/componentes/cores.dart';
 import 'package:flutter/material.dart';
 
 class userText extends StatelessWidget {
@@ -16,6 +17,14 @@ class userText extends StatelessWidget {
           Container(
             constraints: BoxConstraints(maxWidth: MediaQuery.of(context).size.width - 30),
             decoration: BoxDecoration(
+              boxShadow: [
+                BoxShadow(
+                  color: userTextColor,
+                  spreadRadius: 2,
+                  blurRadius: 8,
+                  offset: Offset(0, 3),
+                )
+              ],
               color: Color.fromARGB(255, 255, 208, 208),
               borderRadius: BorderRadius.circular(10)
             ),

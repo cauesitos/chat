@@ -17,7 +17,15 @@ class inputText extends StatelessWidget {
       width: MediaQuery.of(context).size.width - 90,
       decoration: BoxDecoration(
         color: Color.fromARGB(255, 255, 226, 203),
-        borderRadius: BorderRadius.all(Radius.circular(10))
+        borderRadius: BorderRadius.all(Radius.circular(10)),
+        boxShadow: [
+          BoxShadow(
+            color: Color.fromARGB(255, 255, 226, 203),
+            spreadRadius: 2,
+            blurRadius: 8,
+            offset: Offset(0, 3),
+          )
+        ],
       ),
       child: Padding(
         padding: EdgeInsets.fromLTRB(10, 0, 0, 0),

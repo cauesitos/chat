@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'cores.dart';
+
 class serverText extends StatelessWidget {
   const serverText({Key? key, required this.text, required this.name})
       : super(key: key);
@@ -17,7 +19,15 @@ class serverText extends StatelessWidget {
             constraints: BoxConstraints(maxWidth: MediaQuery.of(context).size.width - 30),
             decoration: BoxDecoration(
               color: Color.fromARGB(255, 235, 235, 235),
-              borderRadius: BorderRadius.circular(10)
+              borderRadius: BorderRadius.circular(10),
+              boxShadow: [
+                BoxShadow(
+                  color: serverTextColor,
+                  spreadRadius: 2,
+                  blurRadius: 8,
+                  offset: Offset(0, 3),
+                )
+              ],
             ),
             child: Padding(
               padding: EdgeInsets.all(10),
